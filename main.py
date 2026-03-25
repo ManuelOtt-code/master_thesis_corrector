@@ -37,7 +37,7 @@ async def main(pdf_path: str, output_path: str = "Review_Report.pdf"):
     
     # Step 2: Initialize API
     print("Step 2: Initializing AI review API...")
-    api = SectionAPI(model="gemini-2.5-pro", temperature=0.2)
+    api = SectionAPI(model="gemini-3-pro-preview", temperature=0.0)
     print("✅ API initialized\n")
     
     # Step 3: Process all sections concurrently

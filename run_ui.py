@@ -7,3 +7,13 @@ if __name__ == "__main__":
     ui_path = Path(__file__).parent / "ui" / "app.py"
     subprocess.run([sys.executable, "-m", "streamlit", "run", str(ui_path)])
 
+
+
+
+
+
+
+
+
+
+
